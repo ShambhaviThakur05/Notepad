@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans' , sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: black;
+    margin-top: 1%;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+
+form {
+    display: flex;
+    height: 60vh;
+    margin: 40px;
+}
+
+.formbox textarea {
+    flex: 1;
+    font-size: 100%;
+    border: 0.5px solid grey;
+    color: white;
+    border-radius: 5px;
+    background-color: transparent;
+    
+}
+.btn {
+    background-color: rgb(18, 138, 159);
+    width: 46%;
+    display: inline-block;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+}
+.action{
+    display:flex;
+    gap: 2rem;
+    justify-content: center;
+  }
